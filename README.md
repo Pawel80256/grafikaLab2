@@ -1,6 +1,6 @@
 # grafikaLab2
-Gra nazywa się "World's hardest game", jest to inspiracją jedną z pierwszych gier w jakie miałem okazję zagrać kilkanaście lat temu. Gra została napisana od zera w 100% 
-samodzielnie przeze mnie, z minimalną pomocą StackOverflow przy niektórych funkcjach matematycznych. 
+Gra nazywa się "World's hardest game", jest to inspiracją jedną z pierwszych gier w jakie miałem okazję zagrać kilkanaście lat temu. Gra została napisana od zera
+przeze mnie, z minimalną pomocą StackOverflow przy niektórych funkcjach matematycznych. 
 ## Zasady gry
 Gra polega na przedostaniu się z jednego zielonego obszaru na ktorym sie spawnujemy,do drugiego który jest zazwyczaj po drugiej stronie mapy. Jeżeli na danym poziomie występują 
 żółte monety, grający musi zebrać je wszystkie żeby poziom został zaliczony. Gracz musi unikać wszystkich niebieskich obiektów, ponieważ po zetknięciu z nimi dopisywana jest
