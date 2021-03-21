@@ -7,7 +7,11 @@ Gra polega na przedostaniu się z jednego zielonego obszaru na ktorym sie spawnu
 "śmierć" do licznika, oraz gracz jest teleportowany na początek poziomu a sam poziom się resetuje. 
 ## Instrukcja i mechanika poruszania się
 Gracz porusza się strzałkami, ściany się "kleją" co ma dodatkowo utrudnić rozgrywkę i zniechęcić gracza do nieprzemyślanego parcia na przód. Ma to szczególne znaczenie w przypadku 
-ciasnych przejść. 
+ciasnych przejść.
+## Gdyby gra sprawiała za dużo trudności do przejścia i ocenienia
+* **Poziom pierwszy i czwarty** W klasie WorldsHardestGame w metodzie loadlvl1() i loadlvl(4) zmienić speed (przedostatni atrybut) BlueBalli na mniejszy.
+* **Poziom drugi** W actionPerformed wykomentować linie od 486 do 492 - if(lvl2Line.intersects(new Rectangle(player.getX(),player.getY(),player.getWidth(),player.getHeight()))) {...}
+* **Poziom trzeci** W actionPerformed wykomentowac linie od 517 do 523 - if(lvl3Rectangle.intersects(new Rectangle(player.getX(),player.getY(),player.getWidth(),player.getHeight()))) {...}
 ## Gra składa się z następujących klas:
 * Main
 * Player
